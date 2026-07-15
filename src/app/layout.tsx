@@ -10,7 +10,7 @@ TODO:  Change these things along with:
   - favicon.ico in /public
  */
 const font = Karla({ weight: '400', subsets: ['latin']})
-const title = 'Karter\'s Site';
+const title = 'Minnesota Viking\'s Site';
 const description = 'This my personal site';
 const links = [
   {title: 'bonk.io', href: 'https://bonk.io'},
