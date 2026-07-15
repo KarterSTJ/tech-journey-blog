@@ -37,9 +37,9 @@ const NavBarContainer: React.FC<NavBarContainerProps> = ({title, children, links
                   <Image
                     alt={'Profile image'}
                     src={"https://1000logos.net/wp-content/uploads/2017/06/Minnesota-Vikings-Logo.png"}
-                    width={64}
-                    height={64}
-                    className="object-contain"
+                    width={80}
+                    height={80}
+                    className="object-contain scale-[1.15]"
                     priority
                   />
                 </div>
