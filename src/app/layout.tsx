@@ -13,7 +13,7 @@ const font = Karla({ weight: '400', subsets: ['latin']})
 const title = 'Karter\'s Site';
 const description = 'This my personal site';
 const links = [
-  {title: 'Bonk', href: 'https://bonk.io'},
+  {title: 'bonk.io', href: 'https://bonk.io'},
   {title: 'Rick and Morty', href: '/rick-and-morty'}
 ];
 const SocialLinks = {
