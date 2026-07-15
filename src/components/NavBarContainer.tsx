@@ -34,7 +34,7 @@ const NavBarContainer: React.FC<NavBarContainerProps> = ({title, children, links
             <div className="flex-none hidden lg:block w-12 h-12">
               <div className="avatar">
                 <div className="w-12 rounded-full border-primary border-2">
-                  <Image alt={'Profile image'} src={"https://1000logos.net/wp-content/uploads/2017/06/Minnesota-Vikings-Logo.png"} width={500} height={250} />
+                  <Image alt={'Profile image'} src={"https://1000logos.net/wp-content/uploads/2017/06/Minnesota-Vikings-Logo.png"} width={1500} height={750} />
                 </div>
               </div>
             </div>
