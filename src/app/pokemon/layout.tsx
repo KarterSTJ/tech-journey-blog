@@ -7,6 +7,7 @@ export default async function PokemonLayout(props: { children: React.ReactNode }
 
   return (
       <div className={'w-full flex flex-col items-center'}>
+        <h2 className={'text-xl font-semibold py-2'}>Hi my name is Karter</h2>
         <PokemonTabs generations={validGenerations}/>
         <div className={'py-4'}>
           {props.children}
