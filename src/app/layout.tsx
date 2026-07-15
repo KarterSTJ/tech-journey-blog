@@ -14,7 +14,7 @@ const title = 'Karter\'s Site';
 const description = 'This my personal site';
 const links = [
   {title: 'bonk.io', href: 'https://bonk.io'},
-  {title: 'Rick and Morty', href: '/rick-and-morty'}
+  {title: 'Minnesota Vikings Schedule', href: 'https://www.vikings.com/schedule/'},
 ];
 const SocialLinks = {
   twitter: 'https://x.com/dunscombe_luke',
