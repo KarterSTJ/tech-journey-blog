@@ -8,7 +8,7 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'rickandmortyapi.com',
+                hostname: '1000logos.net',
             },
             {
                 protocol: 'https',
