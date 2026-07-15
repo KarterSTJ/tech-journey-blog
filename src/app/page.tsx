@@ -11,7 +11,7 @@ type AllPostsData = {
 }[]
 
 // Change this url to change the image!
-const imageUrl = '/images/snorlax.jpg';
+const imageUrl = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs8dqakUOkECOoH1w8qDGE_yWv9GMa26C1HNFGdbN-vilDxs5E_dgajjQ&s=10';
 
 export default function Home() {
   const allPostsData: AllPostsData = getSortedPostsData()

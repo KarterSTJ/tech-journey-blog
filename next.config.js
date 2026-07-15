@@ -12,7 +12,7 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'raw.githubusercontent.com',
+                hostname: 'encrypted-tbn0.gstatic.com',
             }
         ],
     },
