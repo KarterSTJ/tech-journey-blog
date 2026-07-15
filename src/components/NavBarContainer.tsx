@@ -33,12 +33,12 @@ const NavBarContainer: React.FC<NavBarContainerProps> = ({title, children, links
           <div className="w-full navbar glass fixed top-0 z-10 h-18">
             <div className="flex-none hidden lg:block w-12 h-12">
               <div className="avatar">
-                <div className="w-12 h-12 rounded-full border-primary border-2 overflow-hidden flex items-center justify-center bg-white/80">
+                <div className="w-14 h-14 rounded-full border-primary border-2 overflow-hidden flex items-center justify-center bg-white/80">
                   <Image
                     alt={'Profile image'}
                     src={"https://1000logos.net/wp-content/uploads/2017/06/Minnesota-Vikings-Logo.png"}
-                    width={48}
-                    height={48}
+                    width={56}
+                    height={56}
                     className="object-contain"
                     priority
                   />
