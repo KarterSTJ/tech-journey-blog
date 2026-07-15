@@ -104,7 +104,7 @@ export function getAllPostIds() {
 // GET THE DATA OF A SINGLE POST FROM THE ID
 export async function getPostData(id: string) {
   const fullPath = path.join(postsDirectory, `${id}.md`)
-  const fileContents = fs.readFileSync(fullPath,  '/workspaces/tech-journey-blog/posts/2026%20Vikings%20Training%20Camp%20Preview%3A%20Quarterbacks.md')
+  const fileContents = fs.readFileSync(fullPath,  'utf8')
 
   // Use gray-matter to parse the post metadata section
   const matterResult = matter(fileContents)
