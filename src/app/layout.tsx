@@ -13,7 +13,7 @@ const font = Karla({ weight: '400', subsets: ['latin']})
 const title = 'Minnesota Viking\'s Site';
 const description = 'This my personal site';
 const links = [
-  {title: 'bonk.io', href: 'https://bonk.io'},
+  {title: 'Vikings Official Site', href: 'https://www.vikings.com/'},
   {title: 'Minnesota Vikings Schedule', href: 'https://www.vikings.com/schedule/'},
 ];
 const SocialLinks = {
